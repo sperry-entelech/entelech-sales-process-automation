@@ -1,0 +1,101 @@
+# Entelech Sales Process Automation - Python Dependencies
+
+# Web Framework
+Flask==2.3.3
+Flask-CORS==4.0.0
+
+# Database
+sqlite3  # Built-in with Python
+
+# Data Processing
+pandas==2.1.4
+numpy==1.25.2
+
+# Date/Time Handling
+python-dateutil==2.8.2
+
+# Configuration Management
+python-dotenv==1.0.0
+
+# Logging
+structlog==23.2.0
+
+# HTTP Requests (for integrations)
+requests==2.31.0
+
+# JSON Processing
+jsonschema==4.19.2
+
+# Data Validation
+pydantic==2.5.1
+
+# Type Hints
+typing-extensions==4.8.0
+
+# Development and Testing
+pytest==7.4.3
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
+
+# CLI Interface
+click==8.1.7
+rich==13.6.0
+
+# Email Processing
+email-validator==2.1.0
+
+# Document Generation
+reportlab==4.0.7
+jinja2==3.1.2
+
+# E-Signature Integration (Optional)
+# docusign-esign==3.20.0
+# hellosign-python-sdk==4.1.1
+
+# Payment Processing Integration (Optional)  
+# stripe==7.10.0
+# square-python-sdk==28.0.0.20231115
+
+# PDF Processing
+PyPDF2==3.0.1
+
+# Encryption and Security
+cryptography==41.0.8
+
+# UUID Generation
+uuid  # Built-in with Python
+
+# File System Operations
+pathlib  # Built-in with Python
+watchdog==3.0.0
+
+# Process Management
+psutil==5.9.6
+
+# Time Zone Support
+pytz==2023.3.post1
+
+# Threading Support
+threading  # Built-in with Python
+concurrent.futures  # Built-in with Python
+
+# System Information
+platform  # Built-in with Python
+sys  # Built-in with Python
+os  # Built-in with Python
+
+# Built-in modules used
+base64  # Built-in with Python
+re  # Built-in with Python
+time  # Built-in with Python
+math  # Built-in with Python
+collections  # Built-in with Python
+itertools  # Built-in with Python
+functools  # Built-in with Python
+contextlib  # Built-in with Python
+warnings  # Built-in with Python
+datetime  # Built-in with Python
+json  # Built-in with Python
+hashlib  # Built-in with Python
+decimal  # Built-in with Python

@@ -1,0 +1,120 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environment Variables
+.env
+.env.local
+.env.production
+.env.development
+*.env
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+database/sales_automation.db
+
+# Logs
+logs/
+*.log
+log/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Flask
+instance/
+.webassets-cache
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Sales Process Automation specific
+sales_automation.db
+contracts/
+sows/
+invoices/
+signed_contracts/
+project_workspaces/
+
+# E-Signature Integration
+docusign_cache/
+hellosign_cache/
+
+# Payment Processing
+payment_logs/
+invoice_cache/
+transaction_receipts/
+
+# Generated Documents
+generated_sows/
+generated_contracts/
+project_kickoff_docs/
+
+# Client Data
+client_uploads/
+discovery_recordings/
+call_transcripts/
+
+# Temporary Files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Node modules (if any frontend dependencies)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sensitive Configuration
+config/*_secrets.json
+config/production_config.json
+config/api_keys.json
+
+# Contract Templates (may contain sensitive legal terms)
+templates/contracts/production/
+
+# Backup Files
+backups/
+*.backup
+*.bak
